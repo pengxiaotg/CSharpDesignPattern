@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFactory\SimpleFactory.csproj", "{7017289D-2542-4FB1-9217-9B5627F4D64C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FatoryMethod", "FatoryMethod\FatoryMethod.csproj", "{FA968F4C-B060-42C0-A2B6-586220EC97B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatoryMethod", "FatoryMethod\FatoryMethod.csproj", "{FA968F4C-B060-42C0-A2B6-586220EC97B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{91F530BF-FFCE-4610-9B40-F1A1D949B91D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FA968F4C-B060-42C0-A2B6-586220EC97B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA968F4C-B060-42C0-A2B6-586220EC97B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA968F4C-B060-42C0-A2B6-586220EC97B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
