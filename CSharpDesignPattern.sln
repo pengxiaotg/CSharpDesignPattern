@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactory", "SimpleFact
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatoryMethod", "FatoryMethod\FatoryMethod.csproj", "{FA968F4C-B060-42C0-A2B6-586220EC97B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{91F530BF-FFCE-4610-9B40-F1A1D949B91D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{91F530BF-FFCE-4610-9B40-F1A1D949B91D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{D8DABBBB-265D-4B76-B092-1BF6FA4F159F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91F530BF-FFCE-4610-9B40-F1A1D949B91D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DABBBB-265D-4B76-B092-1BF6FA4F159F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DABBBB-265D-4B76-B092-1BF6FA4F159F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DABBBB-265D-4B76-B092-1BF6FA4F159F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DABBBB-265D-4B76-B092-1BF6FA4F159F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
